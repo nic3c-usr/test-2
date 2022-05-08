@@ -2,7 +2,7 @@ name: ci
 
 on:
   pull_request_target:
-    types: [assigned, opened, synchronize, reopened]
+    types: [assigned, opened, synchronize, reopened, edited]
 
 jobs:
   login:
